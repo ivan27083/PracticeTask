@@ -105,13 +105,13 @@ public class Main {
                         case 7:
                             System.out.print("Введите ключ для поиска больших: ");
                             String longerKey = scanner.nextLine();
-                            List<String> longer = avlTree.getLongest(longerKey);
+                            List<String> longer = avlTree.getLonger(longerKey);
                             System.out.println("→ Больше чем " + longerKey + ": " + longer);
                             break;
                         case 8:
                             System.out.print("Введите ключ для поиска меньших: ");
                             String shorterKey = scanner.nextLine();
-                            List<String> shorter = avlTree.getShortest(shorterKey);
+                            List<String> shorter = avlTree.getShorter(shorterKey);
                             System.out.println("→ Меньше чем " + shorterKey + ": " + shorter);
                             break;
                         case 9:

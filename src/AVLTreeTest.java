@@ -52,7 +52,7 @@ public class AVLTreeTest {
     }
 
     @Test
-    public void testGetLongest() {
+    public void testGetLonger() {
         AVLTree tree = new AVLTree();
         tree.insert("10");
         tree.insert("20");
@@ -62,14 +62,14 @@ public class AVLTreeTest {
         tree.insert("25");
 
         List<String> expected = new ArrayList<>(List.of("30", "40", "50"));
-        List<String> actual = tree.getLongest("25");
+        List<String> actual = tree.getLonger("25");
         Collections.sort(expected);
         Collections.sort(actual);
         assertEquals(expected, actual);
     }
 
     @Test
-    public void testGetShortest() {
+    public void testGetShorter() {
         AVLTree tree = new AVLTree();
         tree.insert("10");
         tree.insert("20");
@@ -79,7 +79,7 @@ public class AVLTreeTest {
         tree.insert("25");
 
         List<String> expected = new ArrayList<>(List.of("10", "20", "25"));
-        List<String> actual = tree.getShortest("30");
+        List<String> actual = tree.getShorter("30");
         Collections.sort(expected);
         Collections.sort(actual);
         assertEquals(expected, actual);

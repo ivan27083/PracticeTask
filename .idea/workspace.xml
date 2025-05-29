@@ -4,22 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8ae1d2a-7430-4d8f-8082-0dbcab8613e4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/PerformanceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gigaide/gigaide.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gigaide/gigaide.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+    <list default="true" id="c8ae1d2a-7430-4d8f-8082-0dbcab8613e4" name="Changes" comment="Minor update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HashMap.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HashMap.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/TreeInit.txt" beforeDir="false" afterPath="$PROJECT_DIR$/res/TreeInit.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AVLTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AVLTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AVLTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AVLTreeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ChainHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChainHashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChainHashMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChainHashMapTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoublyLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LinearHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinearHashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinearHashMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinearHashMapTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +54,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Main.executor": "Debug",
+    "Application.Main.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.AVLTreeTest.executor": "Run",
     "JUnit.AVLTreeTest.testBuildTreeFromFile.executor": "Run",
@@ -96,7 +87,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.LinearHashMapTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="HashMap" />
@@ -144,8 +135,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.LinearHashMapTest" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.ChainHashMapTest" />
         <item itemvalue="JUnit.AVLTreeTest.testGetEqual" />
         <item itemvalue="JUnit.AVLTreeTest.testGetLast" />
@@ -161,6 +152,15 @@
       <option name="presentableId" value="Default" />
       <updated>1747494828374</updated>
     </task>
+    <task id="LOCAL-00001" summary="Minor update">
+      <option name="closed" value="true" />
+      <created>1748542087017</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1748542087017</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -173,5 +173,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Minor update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor update" />
   </component>
 </project>

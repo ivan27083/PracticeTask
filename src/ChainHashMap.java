@@ -32,6 +32,7 @@ public class ChainHashMap<T,V> {
             }
             else if (key == null) {
                 entry.value = value;
+                return;
             }
         }
         table[index].add(newEntry);

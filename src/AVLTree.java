@@ -1,10 +1,7 @@
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Stack;
+import java.util.*;
 
 public class AVLTree implements Iterable<String> {
     private Node root;
@@ -161,7 +158,7 @@ public class AVLTree implements Iterable<String> {
         try (BufferedReader reader = new BufferedReader(new FileReader(fileName))) {
             String line;
             while ((line = reader.readLine()) != null) {
-                String[] keys = line.split("\n");
+                String[] keys = line.trim().split("\\s+");
                 for (String key : keys) {
                     insert(key);
                 }
@@ -171,41 +168,41 @@ public class AVLTree implements Iterable<String> {
         }
     }
 
-    public List<String> getLongest(String key) {
+    public List<String> getLonger(String key) {
         List<String> result = new ArrayList<>();
-        getLongestFromNode(root, key, result);
+        getLongerFromNode(root, key, result);
         return result;
     }
 
-    private void getLongestFromNode(Node node, String key, List<String> result) {
+    private void getLongerFromNode(Node node, String key, List<String> result) {
         if (node == null) {
             return;
         }
         if (node.key.compareTo(key) > 0) {
             result.add(node.key);
-            getLongestFromNode(node.left, key, result);
-            getLongestFromNode(node.right, key, result);
+            getLongerFromNode(node.left, key, result);
+            getLongerFromNode(node.right, key, result);
         } else {
-            getLongestFromNode(node.right, key, result);
+            getLongerFromNode(node.right, key, result);
         }
     }
 
-    public List<String> getShortest(String key) {
+    public List<String> getShorter(String key) {
         List<String> result = new ArrayList<>();
-        getShortestFromNode(root, key, result);
+        getShorterFromNode(root, key, result);
         return result;
     }
 
-    private void getShortestFromNode(Node node, String key, List<String> result) {
+    private void getShorterFromNode(Node node, String key, List<String> result) {
         if (node == null) {
             return;
         }
         if (node.key.compareTo(key) < 0) {
             result.add(node.key);
-            getShortestFromNode(node.left, key, result);
-            getShortestFromNode(node.right, key, result);
+            getShorterFromNode(node.left, key, result);
+            getShorterFromNode(node.right, key, result);
         } else {
-            getShortestFromNode(node.left, key, result);
+            getShorterFromNode(node.left, key, result);
         }
     }
 
@@ -221,8 +218,6 @@ public class AVLTree implements Iterable<String> {
         }
         if (node.key.equals(key)) {
             result.add(node.key);
-            getEqualFromNode(node.left, key, result);
-            getEqualFromNode(node.right, key, result);
         } else if (node.key.compareTo(key) < 0) {
             getEqualFromNode(node.right, key, result);
         } else {
@@ -300,7 +295,7 @@ public class AVLTree implements Iterable<String> {
         @Override
         public String next() {
             if (!hasNext()) {
-                throw new IllegalStateException();
+                throw new NoSuchElementException();
             }
             Node node = stack.pop();
             String result = node.key;

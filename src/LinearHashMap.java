@@ -46,7 +46,7 @@ public class LinearHashMap<K, V> {
         do {
             Entry<K, V> entry = table.get(index);
             if (entry == null) return null;
-            if (entry != DELETED && (key == null && entry.key == null || key != null && key.equals(entry.key))) {
+            if (entry != DELETED && ((key == null && entry.key == null) || (key != null && key.equals(entry.key)))) {
                 return entry.value;
             }
             index = (index + 1) % size;
@@ -62,7 +62,7 @@ public class LinearHashMap<K, V> {
         do {
             Entry<K, V> entry = table.get(index);
             if (entry == null) return;
-            if (entry != DELETED && (key == null && entry.key == null || key != null && key.equals(entry.key))) {
+            if (entry != DELETED && ((key == null && entry.key == null) || (key != null && key.equals(entry.key)))) {
                 table.set(index, DELETED);
                 return;
             }

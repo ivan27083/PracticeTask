@@ -1,22 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8ae1d2a-7430-4d8f-8082-0dbcab8613e4" name="Changes" comment="" />
+    <list default="true" id="c8ae1d2a-7430-4d8f-8082-0dbcab8613e4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/PerformanceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gigaide/gigaide.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gigaide/gigaide.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HashMap.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HashMap.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/TreeInit.txt" beforeDir="false" afterPath="$PROJECT_DIR$/res/TreeInit.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AVLTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AVLTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AVLTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AVLTreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChainHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChainHashMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChainHashMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChainHashMapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoublyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinearHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinearHashMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinearHashMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinearHashMapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestRunner.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "ivan27083"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/ivan27083/PracticeTask.git",
+    "accountId": "8576e1b0-92fb-47b7-9d85-163c44fe823c"
+  }
+}]]></component>
   <component name="GradleModuleStateConfig" initialized="true" />
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2xEERmsUPBZ2brZQh8p7u5KL665" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -25,12 +63,95 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Debug",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.AVLTreeTest.executor": "Run",
+    "JUnit.AVLTreeTest.testBuildTreeFromFile.executor": "Run",
+    "JUnit.AVLTreeTest.testGetEqual.executor": "Run",
+    "JUnit.AVLTreeTest.testGetInRange.executor": "Run",
+    "JUnit.AVLTreeTest.testGetLast.executor": "Run",
+    "JUnit.AVLTreeTest.testGetRange.executor": "Run",
+    "JUnit.AVLTreeTest.testIterator.executor": "Run",
+    "JUnit.ChainHashMapTest.executor": "Run",
+    "JUnit.ChainHashMapTest.testNullKey.executor": "Run",
+    "JUnit.ChainHashMapTest.testOverwriteValue.executor": "Run",
+    "JUnit.ChainHashMapTest.testPutAndGet.executor": "Debug",
+    "JUnit.LinearHashMapTest.executor": "Run",
+    "JUnit.LinearHashMapTest.testPutNullKey.executor": "Run",
+    "JUnit.LinearHashMapTest.testRemoveNullKey.executor": "Run",
+    "JUnit.LinearHashMapTest.testUpdateNullKey.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Учеба/3 курс/2 семестр/Практика/HashMap/src/Main.java"
+    "onboarding.tips.debug.path": "C:/Учеба/3 курс/2 семестр/Практика/HashMap/src/Main.java",
+    "run.code.analysis.last.selected.profile": "pProject Default"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "PLAIN_TEXT"
+    ]
   }
 }]]></component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="HashMap" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AVLTreeTest.testGetEqual" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HashMap" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AVLTreeTest" />
+      <option name="METHOD_NAME" value="testGetEqual" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AVLTreeTest.testGetLast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HashMap" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AVLTreeTest" />
+      <option name="METHOD_NAME" value="testGetLast" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChainHashMapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HashMap" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ChainHashMapTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinearHashMapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HashMap" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LinearHashMapTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.LinearHashMapTest" />
+        <item itemvalue="JUnit.ChainHashMapTest" />
+        <item itemvalue="JUnit.AVLTreeTest.testGetEqual" />
+        <item itemvalue="JUnit.AVLTreeTest.testGetLast" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -42,15 +163,15 @@
     </task>
     <servers />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
